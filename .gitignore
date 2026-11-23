@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment and secrets
+.env
+*.env
+*.pem
+*.key
+*.json-key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+firebase-debug.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arduino build output
+build/
+*.bin
+*.hex
+*.elf
